@@ -1,10 +1,6 @@
 import React from 'react';
 import Highcharts from 'highcharts';
 import HighchartsReact from 'highcharts-react-official';
-import DarkUnica from 'highcharts/themes/dark-unica';
-
-//set the theme
-DarkUnica(Highcharts);
 
 //highcharts options: set type of chart
 // data series, categories can be loaded dynamically if necessary
@@ -63,7 +59,7 @@ const options = {
     }]
 }
 
-class ChartDemo extends React.Component {
+class LineChartDemo extends React.Component {
 
     //render the highcharts component
     render() {
@@ -78,4 +74,4 @@ class ChartDemo extends React.Component {
     }
 }
 
-export default ChartDemo;
+export default LineChartDemo;
